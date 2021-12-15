@@ -81,6 +81,21 @@
   --move-color-alt: #001070;
 }
 
+a.logo {
+  position: relative;
+}
+
+.env-highlight {
+  color: white; position: absolute;
+  left: 2rem;
+  top: 1.5rem;
+  padding: 0 0.6rem;
+  background-color: red;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+
+
 .btn-primary, .btn-primary.disabled {
   background-color: var(--primary);
   border-color: var(--primary);
